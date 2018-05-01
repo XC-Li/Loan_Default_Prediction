@@ -1,6 +1,9 @@
 
 # Loan Default Prediction
 
+### This is the markdown version of the jupyter notebook for easy read online.
+### Please find the `Final_Project_Code_Group5.ipynb` for the executable code.
+
 Final Project of Machine Learning I (DATS 6202 - 11, Spring 2018)  
 **Authors:** Liwei Zhu,Wenye Ouyang,Xiaochi Li (Group 5)   
 Data Science @ The George Washington University  
@@ -1486,7 +1489,7 @@ different_tree_number_comaprison = {
 ```
 
 ### Define the general purpose functions
-![image.png](attachment:image.png)
+![png](general_purpose_function.png)
 
 #### Function to train model, return a dictionary of trained model
 
@@ -1504,7 +1507,7 @@ def train_model(model_dict,X_train,y_train):
 #### Function to evaluate model performance  
 We use the following metrics: Precision, Recall,F1 score,AUC
 
-![Confusin Matrix](attachment:image.png)
+![png](confusion_matrix.png)
 
 |Metric|Definition|Meaning|
 |----|----|----|
@@ -1630,7 +1633,7 @@ We balance the classes using the SMOTE ( Synthetic Minority Over-sampling Techni
 **The minority class is oversampled by SMOTE** 
 
 http://contrib.scikit-learn.org/imbalanced-learn/stable/generated/imblearn.over_sampling.SMOTE.html  
-![USAGE](attachment:image.png)
+![png](smote_usage.png)
 
 
 
