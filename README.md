@@ -3,6 +3,7 @@
 
 ### This is the markdown version of the jupyter notebook for easy read online.
 ### Please find the `Final_Project_Code_Group5.ipynb` for the executable code.
+### And `Final_Project_Report_Group5.pdf` for the project report.
 
 Final Project of Machine Learning I (DATS 6202 - 11, Spring 2018)  
 **Authors:** Liwei Zhu,Wenye Ouyang,Xiaochi Li (Group 5)   
